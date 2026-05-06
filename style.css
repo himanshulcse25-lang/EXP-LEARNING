@@ -1,0 +1,61 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f6f9;
+    }
+
+    header {
+      background: #1e2a38;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .courses {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 15px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .progress-bar {
+      background: #ddd;
+      border-radius: 5px;
+      overflow: hidden;
+      height: 10px;
+      margin-top: 10px;
+    }
+
+    .progress {
+      height: 100%;
+      background: #4caf50;
+    }
+
+    .deadlines {
+      margin-top: 20px;
+    }
+
+    .video-section {
+      margin-top: 30px;
+    }
+
+    video {
+      width: 100%;
+      border-radius: 10px;
+      }
+
+    .track-list button {
+      margin: 5px;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
